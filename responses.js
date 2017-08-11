@@ -3,13 +3,13 @@ var exports = module.exports = {};
 exports.getResponse = function(messageFromUser){
     var response = '';
     if(messageFromUser.includes('address')){
-        response = 'kiun tu ny bund dyni hai ?';
+        response = 'kiun dun';
     }
     else if(messageFromUser.includes('hi')){
-        response = 'walikum salam napooti raaan ky';
+        response = 'hey';
     }
     else{
-        response = 'koi simple question he puch ly gandu'
+        response = 'idk man'
     }
      return response;
 }
